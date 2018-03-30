@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Button = ({ onClick, context, children }) => (
     <button className={`btn btn-${context}`} onClick={onClick}>
@@ -8,7 +8,7 @@ const Button = ({ onClick, context, children }) => (
 );
 
 Button.defaultProps = {
-    context: "primary"
+    context: 'primary'
 };
 
 Button.propTypes = {

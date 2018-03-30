@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import Counter from "./Counter";
-import Controls from "./Controls";
+import Counter from './Counter';
+import Controls from './Controls';
 
 class App extends React.Component {
     constructor() {
