@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component matches snapshot 1`] = `
+<div
+  className="card-body "
+>
+  <div
+    className="btn-group btn-group-justified"
+  >
+    <Button
+      context="primary"
+      onClick={[MockFunction]}
+    >
+      -
+    </Button>
+    <Button
+      context="danger"
+      onClick={[MockFunction]}
+    >
+      Reset
+    </Button>
+    <Button
+      context="primary"
+      onClick={[MockFunction]}
+    >
+      +
+    </Button>
+  </div>
+</div>
+`;

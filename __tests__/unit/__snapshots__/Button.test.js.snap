@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component matches snapshot 1`] = `
+<button
+  className="btn btn-primary"
+/>
+`;
+
+exports[`Button component renders context property 1`] = `
+<button
+  className="btn btn-danger"
+/>
+`;
