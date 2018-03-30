@@ -28,13 +28,17 @@
   "scripts": {
     "build": "webpack --display-error-details",
     "start": "webpack-serve --open --config ./webpack.config.js",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "jest": {
     "snapshotSerializers": ["enzyme-to-json/serializer"],
     "testRegex": "/__tests__/.*.test.js?$",
     "setupFiles": [
       "<rootDir>/__tests__/setup.js"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{js,jsx}"
     ]
   }
 }
