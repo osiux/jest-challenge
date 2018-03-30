@@ -7,12 +7,17 @@
   "private": true,
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.1.0",
+    "jest": "^22.4.3",
     "prop-types": "^15.6.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
@@ -22,6 +27,14 @@
   },
   "scripts": {
     "build": "webpack --display-error-details",
-    "start": "webpack-serve --open --config ./webpack.config.js"
+    "start": "webpack-serve --open --config ./webpack.config.js",
+    "test": "jest"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "testRegex": "/__tests__/.*.test.js?$",
+    "setupFiles": [
+      "<rootDir>/__tests__/setup.js"
+    ]
   }
 }
