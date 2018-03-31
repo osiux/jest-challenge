@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter App matches snapshot 1`] = `
+<App>
+  <div
+    className="container"
+  >
+    <div
+      className="row justify-content-center"
+    >
+      <div
+        className="col-sm-12 col-md-6"
+      >
+        <h1
+          className="text-center"
+        >
+          Counter
+        </h1>
+        <div
+          className="card text-center"
+        >
+          <Counter
+            counter={0}
+          >
+            <div
+              className="card-body"
+            >
+              <p
+                className="counter"
+                style={
+                  Object {
+                    "fontSize": "500%",
+                  }
+                }
+              >
+                0
+              </p>
+            </div>
+          </Counter>
+          <Controls
+            onDecrease={[Function]}
+            onIncrease={[Function]}
+            onReset={[Function]}
+          >
+            <div
+              className="card-body "
+            >
+              <div
+                className="btn-group btn-group-justified"
+              >
+                <Button
+                  context="primary"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+                  >
+                    -
+                  </button>
+                </Button>
+                <Button
+                  context="danger"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-danger"
+                    onClick={[Function]}
+                  >
+                    Reset
+                  </button>
+                </Button>
+                <Button
+                  context="primary"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+                  >
+                    +
+                  </button>
+                </Button>
+              </div>
+            </div>
+          </Controls>
+        </div>
+      </div>
+    </div>
+  </div>
+</App>
+`;
