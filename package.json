@@ -39,6 +39,9 @@
     ],
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.{js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/js/index.js"
     ]
   }
 }
